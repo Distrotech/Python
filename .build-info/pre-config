@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#if [ ! -e hostpython ] || [ ! -e hostpgen ];then   
+#  ../configure --enable-shared CC=gcc
+#  make python Parser/pgen;   
+#  mv python hostpython;
+#  mv Parser/pgen hostpgen;
+#  make distclean
+#fi;
