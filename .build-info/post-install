@@ -3,5 +3,5 @@
 if [ ${B_LIBDIRS} != "lib" ];then
   rsync -avP /usr/${B_LIBDIRS}/python2.7/* /usr/lib/python2.7/
   rm -rf /usr/{B_LIBDIRS}/python2.7/
-  ln -s /usr/lib/python2.7 /usr/{B_LIBDIRS}/python2.7
+  ln -s /usr/lib/python2.7 /usr/${B_LIBDIRS}/python2.7
 fi;
