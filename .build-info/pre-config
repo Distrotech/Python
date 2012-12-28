@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Ensure python is built
+touch ../Include/Python-ast.h ../Python/Python-ast.c
+
 #if [ ! -e hostpython ] || [ ! -e hostpgen ];then   
 #  ../configure --enable-shared CC=gcc
 #  make python Parser/pgen;   
